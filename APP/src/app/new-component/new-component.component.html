@@ -1,0 +1,10 @@
+
+<h1>Calculator</h1>
+num1=<input #num1 (keyup)="input1(num1.value)"/><br>
+num2=<input #num2 (keyup)="input2(num2.value)"/><br>
+<button type="button" (click)="add()">ADD</button>
+<button type="button" (click)="sub()">SUB</button>
+<button type="button" (click)="mul()">MUL</button>
+<button type="button" (click)="div()">DIV</button>
+<p>Result={{result}}</p>
+<router-outlet></router-outlet>
