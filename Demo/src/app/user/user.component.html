@@ -1,0 +1,15 @@
+<h1> Highlight Text Example</h1>
+<h2 [ngStyle]="{'color': '#B314DD', 'font-size': '24px', 'font-weight': 'bold'}">Custom Directives</h2>
+
+<div>
+  
+  <p [appMydir]="bgcolor">Shading refers to the background of the text, and usually 
+    corresponds to something like the background color of a table call. </p>
+  
+  <p >Highlighting is literally just like using a <mark [appMydir]="hcolor">highlighter</mark> to color 
+    <mark [appMydir]="hcolor">lines of text you want to call attention</mark> to, similar to highlighting text in a hard copy book.</p>
+  
+  <p [appMydir]="size">Therefore the font size is changed here</p>
+ 
+  </div>
+
